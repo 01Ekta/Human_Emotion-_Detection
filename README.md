@@ -10,7 +10,7 @@
 - Development Environment: Jupyter Notebook, Anaconda
 
 ## Dataset Description
-For this project i utilized this dataset from [FER-2013 Dataset on Kaggle]([https://www.dropbox.com/s/nilt43hyl1dx82k/dataset.zip?dl=0](https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer))The dataset consists of images of human faces labeled with various emotions. The key attributes of the dataset include:
+For this project i utilized this dataset from [FER-2013 Dataset on Kaggle](https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer)The dataset consists of images of human faces labeled with various emotions. The key attributes of the dataset include:
 
 - Classes: The dataset includes seven emotion classes: Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise.
 - Image Size: All images are resized to 224x224 pixels to match the input size of MobileNet.
