@@ -3,6 +3,7 @@
 ## Project Description
 
 ## What is done in this project
+![image](https://github.com/user-attachments/assets/e41839e5-8f1d-46e9-9591-5ccfdbc00d61)
 
 ## TechStack and frameworks Requirements
 - Programming Language: Python
@@ -13,6 +14,8 @@
 For this project i utilized this dataset from [FER-2013 Dataset on Kaggle](https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer)The dataset consists of images of human faces labeled with various emotions. The key attributes of the dataset include:
 
 - Classes: The dataset includes seven emotion classes: Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise.
+  ![image](https://github.com/user-attachments/assets/1b3425d9-e105-4dd8-959f-5ecc70b1a68f)
+
 - Image Size: All images are resized to 224x224 pixels to match the input size of MobileNet.
 - Preprocessing Steps: The images are normalized to a range of [0, 1] and augmented using zoom, shear, and horizontal flip transformations to increase the diversity of the training data.
 
@@ -20,6 +23,7 @@ For this project i utilized this dataset from [FER-2013 Dataset on Kaggle](https
 
 ## What is MobileNet?
 MobileNet is a lightweight, efficient convolutional neural network architecture designed for mobile and embedded vision applications. It uses depthwise separable convolutions to significantly reduce the number of parameters and computational cost.
+![flowchart (1)](https://github.com/user-attachments/assets/7db71595-c49f-4fc0-a7a3-bc5af7ea901a)
 
 In this project, MobileNet is used as the base model for feature extraction. The top layers of MobileNet are replaced with custom layers tailored for emotion classification:
 
