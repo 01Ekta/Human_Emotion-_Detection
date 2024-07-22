@@ -14,6 +14,7 @@
 For this project i utilized this dataset from [FER-2013 Dataset on Kaggle](https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer)The dataset consists of images of human faces labeled with various emotions. The key attributes of the dataset include:
 
 - Classes: The dataset includes seven emotion classes: Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise.
+
   ![image](https://github.com/user-attachments/assets/1b3425d9-e105-4dd8-959f-5ecc70b1a68f)
 
 - Image Size: All images are resized to 224x224 pixels to match the input size of MobileNet.
@@ -23,6 +24,7 @@ For this project i utilized this dataset from [FER-2013 Dataset on Kaggle](https
 
 ## What is MobileNet?
 MobileNet is a lightweight, efficient convolutional neural network architecture designed for mobile and embedded vision applications. It uses depthwise separable convolutions to significantly reduce the number of parameters and computational cost.
+
 ![flowchart (1)](https://github.com/user-attachments/assets/7db71595-c49f-4fc0-a7a3-bc5af7ea901a)
 
 In this project, MobileNet is used as the base model for feature extraction. The top layers of MobileNet are replaced with custom layers tailored for emotion classification:
@@ -61,5 +63,12 @@ In this project, OpenCV is used for:
 - Image Processing: Preprocessing the detected faces before passing them to the MobileNet model for emotion detection.
 
 ## Real-Time Video emotion Detection
+
+![image](https://github.com/user-attachments/assets/1a15fbb2-ac10-4fc7-8b39-5e608a4361a3)
+
+![image](https://github.com/user-attachments/assets/ff4f06e9-22a7-4189-a271-42b277618125)
+
+![image](https://github.com/user-attachments/assets/41eaff48-14a5-4a92-b858-abcdc32aa47c)
+
 
 ## Results
