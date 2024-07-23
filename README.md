@@ -86,12 +86,9 @@ In this project, OpenCV is used for:
 - Image Processing: Preprocessing the detected faces before passing them to the MobileNet model for emotion detection.
 
 ## Real-Time Video emotion Detection
+I have also tried and checked the accuracy on a live webcam capturing faces with different emotions. First downloaded our model which was trained (best_model.h5) naming it as model.h5 file and then imported this into real time facecam video code sinnepts. As an output it opens defaults webcam which was available at that moment, it was able to capture and classify 4 emotions out of 7 accurately.
 
-![image](https://github.com/user-attachments/assets/1a15fbb2-ac10-4fc7-8b39-5e608a4361a3)
-
-![image](https://github.com/user-attachments/assets/ff4f06e9-22a7-4189-a271-42b277618125)
-
-![image](https://github.com/user-attachments/assets/41eaff48-14a5-4a92-b858-abcdc32aa47c)
-
+![image](https://github.com/user-attachments/assets/1a15fbb2-ac10-4fc7-8b39-5e608a4361a3)    ![image](https://github.com/user-attachments/assets/ff4f06e9-22a7-4189-a271-42b277618125)  ![image](https://github.com/user-attachments/assets/41eaff48-14a5-4a92-b858-abcdc32aa47c)
 
 ## Results
+The results were good as the model was trained properly with the dataset and was able to detect and classify  emotions properly but also i also have observed that it was little confused and fluctuating repeatedly between fear and anger when tried with anger emotion. Overall model have achieved approximately 83% accuracy because of some system constraint.
